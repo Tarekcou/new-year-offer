@@ -312,7 +312,6 @@ footer .heading{
 footer .contact{
     width: 30%;
     align-items: start;
-      border: 2px solid bisque;
 }
 footer .contact div{
   display: flex;
