@@ -1,0 +1,325 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+body{
+  width: 1150px;
+  margin: 0 auto;
+ 
+}
+#hero{
+  
+  height: 576px;
+  background-image: 
+  linear-gradient(180deg, rgb(16,16,16) 20%, rgba(16,16,16,0) 100%),
+   url("../images/Banner\ Image.png") ;
+  background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+    
+ 
+}
+ /* background-size:cover ; */
+ .primary-color-red {
+   color: #FF0000;
+ }
+.banner{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.new-year-title{
+  color: white;
+  font-size: 30px;
+}
+.new-year-details{
+  color: white;
+  font-size: 65px;
+  text-align: center;
+}
+
+
+.happy-new-year-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.happy-new-year-div{
+      width: 665px;
+      height: 660px;
+      text-align: center;
+      margin-top: 100px;
+}
+.off{
+  font-size: 80px;
+  color: #FF0000;
+  font-weight: bold;
+  margin-bottom: 45px;
+}
+.happy-new-year-title{
+  font-size: 22px;
+
+}
+.happy-new-year-category-title{
+  font-size: 40px;
+}
+.happy-new-year-img{
+  width: 667px;
+  height: 415px;
+  margin-top: 40px;
+}
+
+.upcoming-offers{
+  height: 450px;
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+  gap: 5px;
+  
+}
+.upcoming-offers-1,.upcoming-offers-2,.upcoming-offers-3{
+  text-align: left;
+  width: 350px;
+  margin: 20px;
+}
+.offer-img{
+  border: 10px solid #FF0000;
+  border-radius: 50%;
+  padding: 10px;
+  width: 300px;
+}
+
+/*welcome css*/
+.welcome{
+  margin: 100px 0;
+  height: 500px;
+  padding: 0px 50px;
+  background-image: linear-gradient(to right, rgb(16, 16, 16) 10%, rgba(16, 16, 16, 0) 100%),
+  url("../images/Vectorrr.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.welcome-heading{
+  /* Welcome to midnight party */
+    width: 450px;
+    height: 176px;
+    
+  color: rgb(255, 255, 255);     
+    font-family: Merriweather;
+      font-size: 50px;
+      font-weight: 900;
+      line-height: 70px;
+      letter-spacing: 8%;
+      text-align: left;
+}
+.welcome-details{
+  color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.welcome-btn{
+  color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    border: none;
+    margin: 30px 20px;
+}
+.content{
+  border: 5% solid red;
+  width: 65%;
+}
+
+.event-time{
+  border-radius: 16px;
+  margin-bottom: 100px;
+  height: 440px;
+  background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.event-time p{
+  font-size: 25px;
+  font-weight: 1000;
+  margin: 0 auto;
+  text-align: center;
+}
+.event-time button{
+  border-radius: 8px;
+  
+    background: rgb(255, 0, 0);
+    padding: 14px 28px 14px 28px;
+    width: 140px;
+      height: 50px;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      text-align: center;
+      text-transform: capitalize;
+      border: none;
+
+}
+.time-span{
+  font-family: Inter;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+.gift-list{
+  margin: 100px 0;
+  height: 1000px;
+  gap: 15px;
+}
+.gift-list h2{
+color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.gift-list h1{
+  color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+.gift-list p{
+  color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.gift-gallery-photo{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.gift-gallery-photo img{
+  border-radius: 16px;
+  /* Rectangle 3 */
+    width: 370px;
+    height: 420px;
+   
+}
+.subscribe{
+  height: 520px;
+  border-radius: 16px;
+  
+    background: rgba(255, 0, 0, 0.05);
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe h1{
+  color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+.subscribe p{
+  color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 700px;
+}
+.subscribe div{
+
+  background: #ffffff;
+  width: 380px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.subscribe div input{
+  width: 65%;
+  height: 100%;
+  border: none;
+  border-radius: 0px 0px 0px 0px;
+}
+.subscribe div p{
+  height: 100%;
+  width: 35%;
+  border-radius: 0px 50px 50px 0px;
+  
+    background: rgb(255, 0, 0);
+    text-align: center;
+    color: white;
+
+}
+
+footer{
+  height: 300px;
+    padding: 80px 20px 80px 20px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .heading{
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  line-spacing: 5px;
+}
+footer .contact{
+    width: 30%;
+    align-items: start;
+      border: 2px solid bisque;
+}
+footer .contact div{
+  display: flex;
+  gap: 5px;
+}
+.foot{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
